@@ -24,7 +24,7 @@
             },
             {
                 "title" : "Create Portworx Storage Class",
-                "text": "create-StorageClass.md.md"
+                "text": "create-StorageClass.md"
             },
             {
                 "title" : "Create Portworx Static Volume",
