@@ -21,6 +21,14 @@
             {
                 "title" : "Install Portworx",
                 "text": "install-px.md"
+            },
+            {
+                "title" : "Create Portworx Storage Class",
+                "text": "create-StorageClass.md.md"
+            },
+            {
+                "title" : "Create Portworx Static Volume",
+                "text": "create-pv.md"
             }
         ],
         "intro": {
