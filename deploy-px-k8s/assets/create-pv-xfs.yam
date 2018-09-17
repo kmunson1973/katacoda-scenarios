@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: demvol02-xfs
+  labels:
+    name: demvol02-xfs
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  portworxVolume:
+    volumeID: demvol02-xfs
+    fsType: xfs
